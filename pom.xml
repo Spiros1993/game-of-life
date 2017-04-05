@@ -278,7 +278,7 @@
 
                     <!-- PMD -->
                     <plugin>
-                        <groupId>org.apache.maven.plugins</groupId>
+                     <!--   <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-pmd-plugin</artifactId>
                         <version>3.2</version>
                         <configuration>
@@ -291,6 +291,7 @@
                             <failOnViolation>true</failOnViolation>
                             <failurePriority>2</failurePriority>
                         </configuration>
+                    -->
                         
                         <artifactId>maven-deploy-plugin</artifactId>
                         <version>${maven-deploy-plugin.version}</version>
